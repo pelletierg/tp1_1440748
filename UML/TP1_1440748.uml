@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_z9hq0KI2EeejOO-Dm2X3uA" name="TP1_1440748">
+  <elementImport xmi:id="_z9z-sKI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-saI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-sqI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-s6I2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-tKI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-taI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-tqI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-t6I2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-uKI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-uaI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-uqI2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_z9z-u6I2EeejOO-Dm2X3uA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_z9zXoKI2EeejOO-Dm2X3uA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_z9zXoaI2EeejOO-Dm2X3uA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_z-rhYKI2EeejOO-Dm2X3uA" name="Exception">
+    <packagedElement xmi:type="uml:Class" xmi:id="_z-rhYaI2EeejOO-Dm2X3uA" name="IllegalStatsAtCreationException" visibility="public">
+      <generalization xmi:id="_0AI586I2EeejOO-Dm2X3uA" general="_0AI58qI2EeejOO-Dm2X3uA"/>
+      <ownedAttribute xmi:id="_0AJhAKI2EeejOO-Dm2X3uA" name="STATS_WRONG" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_0AJhAaI2EeejOO-Dm2X3uA" name="" value="&quot;Les caractéristiques sont éronées&quot;">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_0AL9QKI2EeejOO-Dm2X3uA" name="IllegalStatsAtCreationException" visibility="public"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_z-hwYKI2EeejOO-Dm2X3uA" name="Duel" visibility="public">
+    <ownedOperation xmi:id="_z-yPEKI2EeejOO-Dm2X3uA" name="createFighter" visibility="public" isStatic="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_z-iXcKI2EeejOO-Dm2X3uA" name="FighterFabric" visibility="public" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_z-jlkKI2EeejOO-Dm2X3uA" name="Capacity" visibility="public">
+    <generalization xmi:id="_z-2ggKI2EeejOO-Dm2X3uA" general="_z-hwYKI2EeejOO-Dm2X3uA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z-lawKI2EeejOO-Dm2X3uA" name="Simulator" visibility="public">
+    <ownedOperation xmi:id="_z-8nIKI2EeejOO-Dm2X3uA" name="main" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_z-8nIaI2EeejOO-Dm2X3uA" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z-8nIqI2EeejOO-Dm2X3uA" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z-lawaI2EeejOO-Dm2X3uA" name="Fighter" visibility="public" isAbstract="true">
+    <elementImport xmi:id="_z-_qcKI2EeejOO-Dm2X3uA" importedElement="_z-rhYaI2EeejOO-Dm2X3uA" visibility="private"/>
+    <generalization xmi:id="_z-_DYKI2EeejOO-Dm2X3uA" general="_z-iXcKI2EeejOO-Dm2X3uA"/>
+    <ownedAttribute xmi:id="_z_ARgKI2EeejOO-Dm2X3uA" name="strength" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z_ARgaI2EeejOO-Dm2X3uA" name="dexterity" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z_A4kKI2EeejOO-Dm2X3uA" name="intelligence" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z_A4kaI2EeejOO-Dm2X3uA" name="concentration" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z_BfoKI2EeejOO-Dm2X3uA" name="health" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_z_D74KI2EeejOO-Dm2X3uA" name="Fighter" visibility="public">
+      <ownedParameter xmi:id="_z_D74aI2EeejOO-Dm2X3uA" name="strength">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_D74qI2EeejOO-Dm2X3uA" name="dexterity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_D746I2EeejOO-Dm2X3uA" name="intelligence">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_D75KI2EeejOO-Dm2X3uA" name="concentration">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_INUKI2EeejOO-Dm2X3uA" name="condition" visibility="public"/>
+    <ownedOperation xmi:id="_z_LQoKI2EeejOO-Dm2X3uA" name="getStrength" visibility="public">
+      <ownedParameter xmi:id="_z_LQoaI2EeejOO-Dm2X3uA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_Ns4KI2EeejOO-Dm2X3uA" name="getDexterity" visibility="public">
+      <ownedParameter xmi:id="_z_Ns4aI2EeejOO-Dm2X3uA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_QwMKI2EeejOO-Dm2X3uA" name="getIntelligence" visibility="public">
+      <ownedParameter xmi:id="_z_QwMaI2EeejOO-Dm2X3uA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_UakKI2EeejOO-Dm2X3uA" name="getConcentration" visibility="public">
+      <ownedParameter xmi:id="_z_UakaI2EeejOO-Dm2X3uA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_W20KI2EeejOO-Dm2X3uA" name="getHealth" visibility="public">
+      <ownedParameter xmi:id="_z_W20aI2EeejOO-Dm2X3uA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z-nP8KI2EeejOO-Dm2X3uA" name="Warrior" visibility="public">
+    <elementImport xmi:id="_z_eyoKI2EeejOO-Dm2X3uA" importedElement="_z-rhYaI2EeejOO-Dm2X3uA" visibility="private"/>
+    <generalization xmi:id="_z_eLkKI2EeejOO-Dm2X3uA" general="_z-lawaI2EeejOO-Dm2X3uA"/>
+    <ownedAttribute xmi:id="_z_hO4KI2EeejOO-Dm2X3uA" name="type" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_z_mucKI2EeejOO-Dm2X3uA" name="Warrior" visibility="public">
+      <ownedParameter xmi:id="_z_mucaI2EeejOO-Dm2X3uA" name="strength">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_mucqI2EeejOO-Dm2X3uA" name="dexterity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_muc6I2EeejOO-Dm2X3uA" name="intelligence">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_mudKI2EeejOO-Dm2X3uA" name="concentration">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_rm8KI2EeejOO-Dm2X3uA" name="condition" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z-oeEKI2EeejOO-Dm2X3uA" name="Mage" visibility="public">
+    <elementImport xmi:id="_z_vRUaI2EeejOO-Dm2X3uA" importedElement="_z-rhYaI2EeejOO-Dm2X3uA" visibility="private"/>
+    <generalization xmi:id="_z_vRUKI2EeejOO-Dm2X3uA" general="_z-lawaI2EeejOO-Dm2X3uA"/>
+    <ownedAttribute xmi:id="_z_v4YKI2EeejOO-Dm2X3uA" name="type" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_z_yUoKI2EeejOO-Dm2X3uA" name="Mage" visibility="public">
+      <ownedParameter xmi:id="_z_yUoaI2EeejOO-Dm2X3uA" name="strength">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_yUoqI2EeejOO-Dm2X3uA" name="dexterity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_yUo6I2EeejOO-Dm2X3uA" name="intelligence">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z_yUpKI2EeejOO-Dm2X3uA" name="concentration">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_z_2mEKI2EeejOO-Dm2X3uA" name="condition" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_z-psMKI2EeejOO-Dm2X3uA" name="Infirmary" visibility="public">
+    <generalization xmi:id="_z_5CUKI2EeejOO-Dm2X3uA" general="_z-hwYKI2EeejOO-Dm2X3uA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z-q6UKI2EeejOO-Dm2X3uA" name="Athelete" visibility="public">
+    <elementImport xmi:id="_z_8FoaI2EeejOO-Dm2X3uA" importedElement="_z-rhYaI2EeejOO-Dm2X3uA" visibility="private"/>
+    <generalization xmi:id="_z_8FoKI2EeejOO-Dm2X3uA" general="_z-lawaI2EeejOO-Dm2X3uA"/>
+    <ownedAttribute xmi:id="_z_9TwKI2EeejOO-Dm2X3uA" name="type" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_z__wAKI2EeejOO-Dm2X3uA" name="Athelete" visibility="public">
+      <ownedParameter xmi:id="_z__wAaI2EeejOO-Dm2X3uA" name="strength">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z__wAqI2EeejOO-Dm2X3uA" name="dexterity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z__wA6I2EeejOO-Dm2X3uA" name="intelligence">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z__wBKI2EeejOO-Dm2X3uA" name="concentration">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_0AEogKI2EeejOO-Dm2X3uA" name="condition" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_z-vLwKI2EeejOO-Dm2X3uA" name="FighterTest" visibility="public"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0AI58KI2EeejOO-Dm2X3uA" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_0AI58aI2EeejOO-Dm2X3uA" name="lang">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_0AI58qI2EeejOO-Dm2X3uA" name="IllegalArgumentException"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_0AQOsKI2EeejOO-Dm2X3uA" name="TP1_1440748_Exception" client="_z9hq0KI2EeejOO-Dm2X3uA" supplier="_z-rhYKI2EeejOO-Dm2X3uA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_0AQOsaI2EeejOO-Dm2X3uA" name="TP1_1440748_Exception" client="_z9hq0KI2EeejOO-Dm2X3uA" supplier="_z-rhYKI2EeejOO-Dm2X3uA"/>
+</uml:Model>
