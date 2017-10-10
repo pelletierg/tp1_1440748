@@ -1,9 +1,11 @@
+import java.util.List;
+
 public class Warrior extends Fighter{
 	
 	public static int STR_DEX_CONDITION = 10;
 
-	public Warrior(FighterStats data) {
-		super(data);
+	public Warrior(FighterStats data, List<Capacity> capacityList) {
+		super(data, capacityList);
 		validate(data);
 	}
 	

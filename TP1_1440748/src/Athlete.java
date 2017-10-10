@@ -1,9 +1,11 @@
+import java.util.List;
+
 public class Athlete extends Fighter {
 	
 	public static int STATS_CONDITION = 20;
 	
-	public Athlete (FighterStats data) {
-		super(data);
+	public Athlete (FighterStats data, List<Capacity> capacityList) {
+		super(data, capacityList);
 		validate(data);
 		
 	}

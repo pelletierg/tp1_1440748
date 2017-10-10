@@ -37,4 +37,18 @@ public class FighterStats {
 	public int getConcentration() {
 		return this.concentration;
 	}
+	
+	public void updateWinningStats() {
+		this.strength = this.strength + 1;
+		this.dexterity = this.dexterity + 1;
+		this.intelligence = this.intelligence + 1;
+		this.concentration = this.concentration + 1;
+	}
+	
+	public void updateLosingStats() {
+		this.strength = this.strength - 1;
+		this.dexterity = this.dexterity - 1;
+		this.intelligence = this.intelligence - 1;
+		this.concentration = this.concentration - 1;
+	}
 }

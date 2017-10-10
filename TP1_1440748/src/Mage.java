@@ -1,8 +1,10 @@
+import java.util.List;
+
 public class Mage extends Fighter	{
 	
 	public static int INT_CON_CONDITION = 15;
-	public Mage(FighterStats data) {
-		super(data);
+	public Mage(FighterStats data, List<Capacity> capacityList) {
+		super(data, capacityList);
 		validate(data);
 	}
 	

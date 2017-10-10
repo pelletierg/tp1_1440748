@@ -11,12 +11,12 @@ public class MageTest {
 	
 	@Test (expected = IllegalConcentrationTooLowAtCreationException.class)
 	public void WHEN_concentrationTooLowIsSet_THEN_shouldRaiseIllegalConcentrationTooLowAtCreationException() {
-		new Mage(new FighterStats(OK_STR, OK_DEX, OK_INT, CON_TOO_LOW));
+		new Mage(new FighterStats(OK_STR, OK_DEX, OK_INT, CON_TOO_LOW), AthleteTest.capacity);
 	}
 	
 	@Test (expected = IllegalIntelligenceTooLowAtCreationException.class)
 	public void WHEN_intelligenceTooLowIsSet_THEN_shouldRaiseIllegalIntelligenceTooLowAtCreationException() {
-		new Mage(new FighterStats(OK_STR, OK_DEX, INT_TOO_LOW, OK_CON));
+		new Mage(new FighterStats(OK_STR, OK_DEX, INT_TOO_LOW, OK_CON), AthleteTest.capacity);
 	}
 	
 	
